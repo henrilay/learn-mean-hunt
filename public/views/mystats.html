@@ -1,0 +1,8 @@
+<h2>Hunter {{user.name}}, check your stats</h2>
+<p>Your score is <strong>{{user.score}}</strong></p>
+<p>Your are <strong ng-class="{'text-green': isAboveAvgScore, 'text-red': !isAboveAvgScore}">{{ isAboveAvgScore ? 'above' : 'below' }}</strong> the average score of overall hunters</p>
+<div class="chartStyle">
+  <canvas id="bar" class="chart chart-bar"
+    chart-data="data" chart-labels="labels" chart-series="series">
+  </canvas>
+</div>

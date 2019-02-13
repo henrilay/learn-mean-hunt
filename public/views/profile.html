@@ -1,0 +1,9 @@
+<h2>Welcome back {{user.name}}, what can I do for you?</h2>
+
+<form ng-submit="update(newUser)">
+	<p>
+		<label>Change your name</label>
+		<input type="text" ng-model="newUser.name" />
+	</p>
+	<button type="submit">Save</button>
+</form>

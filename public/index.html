@@ -1,0 +1,43 @@
+<head>
+  <style>
+    .strike {
+      text-decoration: line-through;
+    }
+
+    .text-red {
+      color: red;
+    }
+
+    .text-green {
+      color: green;
+    }
+
+    .chartStyle {
+      width: 500px;
+      height: 500px;
+    }
+  </style>
+</head>
+<body ng-app="myApp">
+  <h1>Hunt Game</h1>
+
+  <div id="navigation">
+    <a href="#/">Hunt</a>
+    <a href="#/mystats">My Stats</a>
+    <a href="#/profile">Profile</a>
+  </div>
+
+  <div ng-view></div>
+
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="node_modules/angular-route/angular-route.min.js"></script>
+  <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+  <script src="app.js"></script>
+  <script src="./controllers/huntController.js"></script>
+  <script src="./controllers/myStatsController.js"></script>
+  <script src="./controllers/profileController.js"></script>
+  <script src="./services/userService.js"></script>
+  <script src="./services/animalService.js"></script>
+
+</body>

@@ -1,0 +1,25 @@
+{"_id":{"$oid":"581b1d89272201b13226ffc4"},"type":"mammal","name":"deer","probability":0.5,"score":1.0}
+{"_id":{"$oid":"581b1e33272201b13226ffc5"},"type":"mammal","name":"horses","probability":0.3,"score":2.0}
+{"_id":{"$oid":"581b1e8b272201b13226ffc6"},"type":"bird","name":"robins","probability":0.5,"score":1.0}
+{"_id":{"$oid":"581b1ed3272201b13226ffc7"},"type":"fish","name":"tunas","probability":0.5,"score":1.0}
+{"_id":{"$oid":"581b1f08272201b13226ffc8"},"type":"reptile","name":"lizards","probability":0.5,"score":1.0}
+{"_id":{"$oid":"581b1f28272201b13226ffc9"},"type":"amphibian","name":"frogs","probability":0.5,"score":1.0}
+{"_id":{"$oid":"581b1f62272201b13226ffca"},"type":"bird","name":"toucans","probability":0.3,"score":2.0}
+{"_id":{"$oid":"581b1fb0272201b13226ffcb"},"type":"fish","name":"clownfishes","probability":0.3,"score":2.0}
+{"_id":{"$oid":"581b1fcc272201b13226ffcc"},"type":"reptile","name":"turtles","probability":0.3,"score":2.0}
+{"_id":{"$oid":"581b1fe3272201b13226ffcd"},"type":"amphibian","name":"toads","probability":0.3,"score":2.0}
+{"_id":{"$oid":"581b3c91272201b13226ffce"},"type":"mammal","name":"kangaroos","probability":0.1,"score":4.0}
+{"_id":{"$oid":"581b3cd4272201b13226ffcf"},"type":"bird","name":"penguins","probability":0.1,"score":4.0}
+{"_id":{"$oid":"581b3ceb272201b13226ffd0"},"type":"fish","name":"sharks","probability":0.1,"score":4.0}
+{"_id":{"$oid":"581b3d04272201b13226ffd1"},"type":"reptile","name":"snakes","probability":0.1,"score":4.0}
+{"_id":{"$oid":"581b3d1e272201b13226ffd2"},"type":"amphibian","name":"newts","probability":0.1,"score":4.0}
+{"_id":{"$oid":"581b3d5c272201b13226ffd3"},"type":"amphibian","name":"blindworms","probability":0.07,"score":6.0}
+{"_id":{"$oid":"581b3d8e272201b13226ffd4"},"type":"reptile","name":"alligators","probability":0.07,"score":6.0}
+{"_id":{"$oid":"581b3dad272201b13226ffd5"},"type":"fish","name":"sea breams","probability":0.07,"score":6.0}
+{"_id":{"$oid":"581b3dcc272201b13226ffd6"},"type":"bird","name":"bald eagles","probability":0.07,"score":6.0}
+{"_id":{"$oid":"581b3de4272201b13226ffd7"},"type":"mammal","name":"dolphins","probability":0.07,"score":6.0}
+{"_id":{"$oid":"581b3e11272201b13226ffd8"},"type":"mammal","name":"whales","probability":0.03,"score":10.0}
+{"_id":{"$oid":"581b3e34272201b13226ffd9"},"type":"bird","name":"peacocks","probability":0.03,"score":10.0}
+{"_id":{"$oid":"581b3e47272201b13226ffda"},"type":"fish","name":"seahorses","probability":0.03,"score":10.0}
+{"_id":{"$oid":"581b3e66272201b13226ffdb"},"type":"reptile","name":"crocodiles","probability":0.03,"score":10.0}
+{"_id":{"$oid":"581b3e7d272201b13226ffdc"},"type":"amphibian","name":"salamanders","probability":0.03,"score":10.0}

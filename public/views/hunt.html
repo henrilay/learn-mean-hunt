@@ -1,0 +1,24 @@
+<h2>Hello {{user.name}}, enjoy the hunt!</h2>
+<p ng-show="!speciesList">Loading...</p>
+<p ng-show="speciesList">
+	<button ng-repeat="species in speciesList" type="button" ng-click="hunt(species)">Hunt {{species}}</button>
+</p>
+
+<p><strong>SCORE: {{user.score}}</strong></p>
+
+<h4>Last hour attempts</h4>
+<ul>
+	<li ng-repeat="attempt in attemptsList | orderBy:'date':true">
+		[<span ng-class="{'text-green': attempt.outcome, 'text-red': !attempt.outcome}">
+			{{attempt.outcome ? 'Captured' : 'Missed'}}
+		</span>]
+		 - {{displayDate(attempt.date)}} - {{attempt.name}}
+	</li>
+</ul>
+
+<h4>Repartition of species captured</h4>
+<div class="chartStyle">
+	<canvas id="doughnut" class="chart chart-doughnut"
+	  chart-data="chartData" chart-labels="speciesList">
+	</canvas>
+</div>
